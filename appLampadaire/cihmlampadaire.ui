@@ -257,6 +257,9 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <item>
      <property name="text">
       <string>Disabled [0]</string>
@@ -286,6 +289,9 @@
       <width>111</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <item>
      <property name="text">
@@ -331,7 +337,7 @@
    <widget class="QPushButton" name="PbLire">
     <property name="geometry">
      <rect>
-      <x>430</x>
+      <x>420</x>
       <y>10</y>
       <width>81</width>
       <height>23</height>
@@ -342,6 +348,9 @@
       <pointsize>8</pointsize>
      </font>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="text">
      <string>Lire</string>
     </property>
@@ -349,27 +358,100 @@
    <widget class="QPushButton" name="PbEnregistrer">
     <property name="geometry">
      <rect>
-      <x>540</x>
+      <x>530</x>
       <y>10</y>
       <width>81</width>
       <height>23</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="text">
      <string>Enregistrer</string>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="lcdNumber">
+   <widget class="QTextEdit" name="txtConsole">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>80</y>
-      <width>311</width>
-      <height>271</height>
+      <x>320</x>
+      <y>70</y>
+      <width>291</width>
+      <height>201</height>
      </rect>
     </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>43</red>
+          <green>211</green>
+          <blue>24</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>43</red>
+          <green>211</green>
+          <blue>24</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>120</red>
+          <green>120</green>
+          <blue>120</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>240</red>
+          <green>240</green>
+          <blue>240</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pReset">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -377,6 +459,9 @@
       <width>75</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="text">
      <string>Reset</string>

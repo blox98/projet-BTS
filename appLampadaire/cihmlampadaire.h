@@ -25,6 +25,8 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_pReset_clicked();
+
 private:
     Ui::CIhmLampadaire *ui;
 };
