@@ -1,0 +1,4 @@
+#ifndef CCOMMUNIQUER_H
+#define CCOMMUNIQUER_H
+
+#endif // CCOMMUNIQUER_H
